@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:
+      dev
+  
+  datasource:
+    url:
+      jdbc:mysql://us-cdbr-iron-east-05.cleardb.net:3306/ad_9535daa2a08258b
+      
+    username:
+      b22f2f26056f1a
+      
+    password:
+      7dc44921
+      
+  jpa:
+    hibernate:
+      ddl-auto: 
+        update

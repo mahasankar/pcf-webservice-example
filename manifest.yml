@@ -1,0 +1,7 @@
+applications:
+- name: demo1234
+  memory: 1024M
+  instances: 1
+  path: ./target/demo1234-0.0.1-SNAPSHOT.jar
+  services:
+  - mahadev
